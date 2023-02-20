@@ -1,0 +1,83 @@
+/*  *{ -> reseta a página ou seja, toda a página terá esta configuração qdo utilizo 0 *{}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #202026;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;    /* dá um espaço maior entre os ícones*/
+    align-items: center;
+    padding: 20px 5%; /* vair preencher 20 pixels em cima e embaixo e os 5% preencherá da esquerda p direita*/
+    height: 80px;
+}
+
+.logo img {
+    width: 64px;
+}
+
+.menu-items a img {
+    width: 26px;
+}
+
+.menu-items a{
+    margin-left: 30px;
+}
+
+.content{
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side h1{
+    font-size: 50px;
+    color: #00C0AF;
+}
+
+.left-side p{
+    color: white;
+    margin-bottom: 60px;
+        
+}
+
+.left-side span{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00C0AF;
+    width: fit-content; /* esta largura se adapta ao tamanho do conteúdo*/
+    padding: 15px 20px;
+    border-radius: 5px; /* deixa a borda arredondada*/
+}
+
+.right-side{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img{
+    background-color: #fff;
+}
